@@ -1173,6 +1173,7 @@ name = "pipeline"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "click" },
     { name = "pandas" },
     { name = "pgcli" },
     { name = "pyarrow" },
@@ -1183,10 +1184,12 @@ dependencies = [
 [package.dev-dependencies]
 dev = [
     { name = "jupyter" },
+    { name = "pgcli" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "click", specifier = ">=8.0.0" },
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "pgcli", specifier = ">=4.4.0" },
     { name = "pyarrow", specifier = ">=23.0.1" },
@@ -1195,7 +1198,10 @@ requires-dist = [
 ]
 
 [package.metadata.requires-dev]
-dev = [{ name = "jupyter", specifier = ">=1.1.1" }]
+dev = [
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "pgcli", specifier = ">=4.4.0" },
+]
 
 [[package]]
 name = "platformdirs"
