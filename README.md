@@ -1,6 +1,6 @@
 # Data Engineering Pipeline – NYC Taxi Data
 
-This project is part of my learning journey in the Data Engineering Zoomcamp.  
+This project is part of my learning journey of the DataTalks.Club Data Engineering Zoomcamp.
 It demonstrates building a simple data pipeline to ingest NYC taxi trip data into PostgreSQL using Docker.
 
 ---
