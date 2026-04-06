@@ -93,9 +93,3 @@ Code: `pipeline/`, `terraform/`
 - Terraform
 - Google Cloud Platform (GCS, BigQuery)
 
----
-
-## Repository Structure
-├── docker/ # Data ingestion pipeline (Dockerized)
-├── terraform/ # Infrastructure as Code (GCP)
-└── README.md
