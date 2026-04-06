@@ -15,16 +15,6 @@ This allows scalable and reproducible cloud infrastructure for data engineering 
 
 ---
 
-## Architecture
-
-
-Terraform → GCP
-├── GCS Bucket (data storage)
-└── BigQuery Dataset (data warehouse)
-
-
----
-
 ## Project Structure
 
 
