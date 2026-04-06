@@ -8,8 +8,8 @@ This module contains Terraform configuration used to provision cloud infrastruct
 
 Using Terraform (Infrastructure as Code), this setup automatically creates:
 
-- 📦 Google Cloud Storage (GCS) Bucket  
-- 🧠 BigQuery Dataset  
+- Google Cloud Storage (GCS) Bucket  
+- BigQuery Dataset  
 
 This allows scalable and reproducible cloud infrastructure for data engineering pipelines.
 
