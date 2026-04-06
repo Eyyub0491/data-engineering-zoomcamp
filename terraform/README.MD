@@ -21,11 +21,6 @@ This allows scalable and reproducible cloud infrastructure for data engineering 
 terraform/
 - main.tf # Main Terraform configuration
 - variables.tf # Input variables
-- terraform.lock.hcl # Provider lock file
-- variables.tfvars.example # Example variables file
-- .gitignore # Ignore sensitive files
-- README.md # Documentation
-
 
 ---
 
